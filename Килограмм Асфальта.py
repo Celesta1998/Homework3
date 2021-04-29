@@ -1,0 +1,5 @@
+number_1 = input("Введите сумму за килограмм асфальта: ")
+number_list = list(number_1)
+number_list.reverse()
+number_2 = "".join(number_list)
+print('"Обратная" цена асфальта:',number_2)
